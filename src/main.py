@@ -15,7 +15,7 @@ def get_levenshtein_matches(data: pd.DataFrame, levenshtein_dist: int) -> list:
     data : pd.DataFrame
         Table that contains at least columns `HUNDENAME` and `distance`.
     levenshtein_dist : int
-        The word to compare against word1.
+        Specifies the Levenshtein Distance of interest.
 
     Returns
     -------
